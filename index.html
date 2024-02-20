@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio PC</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Laboratorio de Computo</h1>
+    <div class="contenedor_input"><label for="pcId" >Numero de PC: </label>
+    <input type="text" id="pcId"></div>
+    <div class="contenedor_botones"><button onclick="funMostrarPc()" class="boton">Mostrar</button>
+    <button onclick="funAcomodarPcs()" class="boton2">Acomodar</button></div><br>
+    <div id="totals" class="contenedor">PCs Disponibles: 0 | PCs Fuera de Servicio: 0</div><br>
+    <div id="pcImage" class="contenedorPc"></div>
+    
+    <div class="ContenedorDeMesa">
+        <div class="Mesa">Mesa 1</div>
+        <div class="Mesa">Mesa 2</div>
+        <div class="Mesa">Mesa 3</div>
+        <div class="Mesa">Mesa 4</div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/contador.js"></script>
+    <script src="js/funcion.js"></script>
+</body>
+</html>
