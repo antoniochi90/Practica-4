@@ -44,6 +44,8 @@ function funMostrarImagenes(pcsData, cantidadPcs) {
         imagen.width = 100;
         imagen.height = 100;
 
+        //se creo un evento el cual lo que hace es mover el cuadro este caso 'DIV' que tiene por nombre 
+        //pcContainer 
         pcContainer.addEventListener('mousedown', function() {
         let shiftX = event.clientX - pcContainer.getBoundingClientRect().left;
         let shiftY = event.clientY - pcContainer.getBoundingClientRect().top;
